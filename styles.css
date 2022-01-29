@@ -53,7 +53,7 @@ html::-webkit-scrollbar-thumb {
 
 .footer-submit__btn {
     position: absolute;
-    right: 0;
+    /* right: 0; */
     bottom: 0;
     padding: 10px 25px;
     background: none;
@@ -64,6 +64,8 @@ html::-webkit-scrollbar-thumb {
     font-size: 16px;
     cursor: pointer;
     transition: all 0.5s ease;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer-submit__btn:hover {
@@ -196,6 +198,23 @@ html::-webkit-scrollbar-thumb {
     padding: 1px 7px;
     background-color: green;
     color: white;
+    font-size: 3rem;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.navbar-toggler {
+    font-size: 2rem !important;
+}
+
+.nav-link {
+    font-size: 3rem;
+}
+
+.navbar-btn {
+    font-size: 2rem !important;
 }
 
 @media only screen and (min-width: 1350px) {
@@ -7082,6 +7101,7 @@ input:focus {
 }
 
 .desktop .frame-1120-dg6U5x {
+    display: none;
     background-color: var(--white);
     height: 120px;
     left: 0px;
@@ -11068,11 +11088,11 @@ input:focus {
 
 .desktop-small .vector-fF3nRA {
     background-color: transparent;
-    height: 1px;
-    left: 13px;
+    height: 24px;
+    left: 2px;
     position: absolute;
-    top: 13px;
-    width: 1px;
+    top: 2px;
+    width: 24px;
 }
 
 .desktop-small .group-vT7RKx {
@@ -11796,7 +11816,7 @@ input:focus {
 .desktop-small .vector-1IZruJ {
     background-color: transparent;
     height: 16px;
-    left: -0px;
+    left: -1px;
     mix-blend-mode: normal;
     position: absolute;
     top: 0px;
@@ -11805,6 +11825,7 @@ input:focus {
 }
 
 .desktop-small .group-3h53Of {
+    display: none;
     background-color: transparent;
     height: 13px;
     left: 6px;
@@ -11856,6 +11877,7 @@ input:focus {
 }
 
 .desktop-small .group-730LRw {
+    display: none;
     background-color: transparent;
     height: 13px;
     left: 5px;
@@ -13167,9 +13189,9 @@ input:focus {
 .desktop-small .personal-information-HLTkr7 {
     background-color: transparent;
     height: 189px;
-    left: 0px;
+    left: 50px;
     position: absolute;
-    top: 0px;
+    top: 40px;
     width: 393px;
 }
 
@@ -13424,9 +13446,9 @@ input:focus {
 .desktop-small .input-HLTkr7 {
     background-color: transparent;
     height: 140px;
-    left: 0px;
+    left: 50px;
     position: absolute;
-    top: 239px;
+    top: 260px;
     width: 393px;
 }
 
