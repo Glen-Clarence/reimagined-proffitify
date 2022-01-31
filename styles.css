@@ -1,11 +1,17 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("./reset.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400,700,900,500,600|Fira+Sans:500|Roboto:400");
 
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 
-@import url("https://px.animaapp.com/61d922cbdc761765b469eac7.61d922ce438483a99f5a1d5f.ku745P5.hch.png");
+
+/* @import url("https://px.animaapp.com/61d922cbdc761765b469eac7.61d922ce438483a99f5a1d5f.ku745P5.hch.png"); */
+
 
 /* edited by glen */
+
+body {
+    overflow-x: hidden;
+}
 
 .menu-wn4fOT {
     z-index: 10000;
@@ -74,6 +80,13 @@ html::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
+.footer-subscribe__btn {
+    width: 225px;
+    height: 75px;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+
 .navbar-btn {
     position: absolute;
     top: 50%;
@@ -140,7 +153,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .btn--2 {
-    background: var(--tropical-rain-forest);
+    background: var(--tropical-rain-forest) !important;
     overflow: hidden;
 }
 
@@ -220,6 +233,70 @@ html::-webkit-scrollbar-thumb {
 @media only screen and (min-width: 1350px) {
     .hide-lg {
         display: none !important;
+    }
+}
+
+
+/* Auto Scroll Products */
+
+
+/* mobile  */
+
+.frame-1146-k9SYg4 {
+    animation: slide-mobile infinite 20s alternate;
+    /* touch-action: pan-left; */
+}
+
+.frame-1146-k9SYg4:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide-mobile {
+    0% {
+        margin-left: 0px;
+    }
+    10% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: -1156px;
+        ;
+    }
+    70% {
+        margin-left: -2232px;
+    }
+    100% {
+        margin-left: -3387px;
+    }
+}
+
+
+/* desktop  */
+
+.products-CDktNb {
+    animation: slide infinite 20s alternate-reverse;
+}
+
+.products-CDktNb:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    10% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: -1222px;
+        ;
+    }
+    70% {
+        margin-left: -2410px;
+    }
+    100% {
+        margin-left: -3587px;
     }
 }
 
@@ -806,10 +883,10 @@ input:focus {
 .desktop .rectangle-153-3AxZVn {
     background-color: transparent;
     height: 1096px;
-    left: -96px;
+    left: 38px;
     mix-blend-mode: normal;
     position: absolute;
-    top: -333px;
+    top: -639px;
     width: 1703px;
 }
 
@@ -6581,7 +6658,7 @@ input:focus {
     width: 298px;
 }
 
-.desktop .frame-1154-dg6U5x {
+.desktop .mobile-socials {
     background-color: transparent;
     height: 97px;
     left: 49px;
@@ -8002,7 +8079,7 @@ input:focus {
     mix-blend-mode: normal;
     position: absolute;
     top: 601px;
-    width: 354px;
+    width: 390px;
 }
 
 .desktop-small .style-button-base-r5AnZJ:hover {
@@ -8059,7 +8136,7 @@ input:focus {
     background-color: transparent;
     width: 100%;
     /* color: #70bfac; */
-    color: #70bfac;
+    color: #167961;
     font-family: var(--font-family-inter);
     border: none;
     font-size: 23px;
@@ -8080,6 +8157,7 @@ input:focus {
     position: absolute;
     font-size: 30px;
     color: #008060;
+    top: -8px;
 }
 
 .desktop-small .x91-PJi3Ux {
@@ -9631,6 +9709,7 @@ input:focus {
     top: 2856px;
     white-space: nowrap;
     width: 124px;
+    border: none;
 }
 
 .desktop-small .frequently-asked-questions-wn4fOT {
