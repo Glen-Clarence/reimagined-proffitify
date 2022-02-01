@@ -260,7 +260,6 @@ html::-webkit-scrollbar-thumb {
     }
     40% {
         margin-left: -1156px;
-        ;
     }
     70% {
         margin-left: -2232px;
@@ -271,7 +270,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-/* desktop  */
+/* desktop*/
 
 .products-CDktNb {
     animation: slide infinite 20s alternate-reverse;
@@ -1207,7 +1206,7 @@ input:focus {
 }
 
 .desktop .our-team-will-reach-out-to-you-PJi3Ux .fas {
-    left: 240px;
+    left: 318px;
     position: absolute;
     font-size: 30px;
     color: #008060;
